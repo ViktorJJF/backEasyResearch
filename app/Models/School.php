@@ -5,13 +5,20 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Country extends Model
+class School extends Model
 {
     use HasFactory;
+
     protected $fillable = [
-        'name',
-        'code',
-        'status',
+        "user_id",
+        "projectId",
+        "configStatus",
+        "title",
+        "type",
+        "studyLevel",
+        "dedicatedTime",
+        "lastAccessedTime",
     ];
+
     public $with = [];
 }

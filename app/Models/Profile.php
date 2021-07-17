@@ -19,6 +19,7 @@ class Profile extends Eloquent
         'google_plus_profile',
         'avatar',
     ];
+    public $with = [];
     protected $primaryKey = 'id';
     protected $table = 'profiles';
 

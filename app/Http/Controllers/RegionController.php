@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Profile;
+use App\Models\Region;
 use Illuminate\Http\Request;
 
-class ProfileController extends Controller
+class RegionController extends Controller
 {
 
-    private $model = Profile::class;
+    private $model = Region::class;
 
     public function index(Request $request)
     {

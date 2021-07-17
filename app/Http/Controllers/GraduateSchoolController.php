@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Profile;
+use App\Models\GraduateSchool;
 use Illuminate\Http\Request;
 
-class ProfileController extends Controller
+class GraduateSchoolController extends Controller
 {
 
-    private $model = Profile::class;
+    private $model = GraduateSchool::class;
 
     public function index(Request $request)
     {
